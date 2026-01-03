@@ -1,27 +1,76 @@
-# BasicCalculator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+# Basic Calculator App using Angular
 
-## Development server
+## 📌 Project Description
+This is a **Basic Calculator Application** developed using **Angular** as part of **PROJECT – B (Angular Capstone Project)**.  
+The application performs basic arithmetic operations such as **addition, subtraction, multiplication, and division** with a clean and colorful user interface.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🛠️ Technologies Used
+- **Angular 16**
+- **TypeScript**
+- **HTML5**
+- **CSS3**
+- **Bootstrap 5**
+- **Node.js 18 LTS**
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 📂 Components Used
+- **AppComponent** (Single component used to render the entire application)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🔑 Angular Concepts Implemented
+- AppComponent
+- Template Driven Form (TDF)
+- Two Way Data Binding (`ngModel`)
+- Component Properties
+- Control Statements
+- Event Binding
+- Bootstrap Integration
+- Custom CSS Styling
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🎯 Project Features
+- Default input value is **0** when application loads
+- Supports:
+  - Addition (+)
+  - Subtraction (−)
+  - Multiplication (×)
+  - Division (÷)
+- Clear button to reset calculator
+- Colorful and user-friendly UI
+- Responsive layout using Bootstrap
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🖥️ Project Layout
+- One main heading
+- One input field
+- Table-based button layout
+- Number buttons and operator buttons
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## 🚀 How to Run the Project
+1. Install **Node.js (18 LTS)**
+2. Install Angular CLI:
+   ```bash
+  npm install -g @angular/cli@16
+3. clone the repository 
+4. navite to the project folder 
+using cd basic-calculator
+5. install dependencies using
+npm install
+6. Run the app using 
+ng serve 
+7. open browser and visit 
+http://localhost:4200 cntrl + right click
+
+
+
+
+>>>>>>> 66a735688eedb1e36757c6a10c6538ccd6d8328d
