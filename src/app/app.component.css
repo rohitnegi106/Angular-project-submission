@@ -1,0 +1,33 @@
+/* Number buttons */
+.btn-light {
+  background-color: #f8f9fa !important;
+  color: #000;
+}
+
+/* Operator buttons */
+.btn-warning {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+  border: none;
+}
+
+/* Equal button */
+.btn-success {
+  background-color: #198754 !important;
+  color: #fff !important;
+  border: none;
+}
+
+/* Clear button */
+.btn-danger {
+  background-color: #dc3545 !important;
+  color: #fff !important;
+  border: none;
+}
+
+/* Button sizing */
+button {
+  height: 48px;
+  font-size: 18px;
+  border-radius: 10px;
+}
