@@ -70,6 +70,32 @@ ng serve
 7. open browser and visit 
 http://localhost:4200 cntrl + right click
 
+📁 Project Folder Structure
+
+Angular-project-submission/
+│
+├── src/
+│   ├── app/
+│   │   ├── components/        # All Angular components
+│   │   ├── services/          # Services for API / logic
+│   │   ├── app.component.ts   # Root component logic
+│   │   ├── app.component.html # Root component template
+│   │   ├── app.component.css  # Root component styles
+│   │   └── app.module.ts      # Main Angular module
+│   │
+│   ├── assets/                # Images, icons, static files
+│   ├── environments/          # Environment configurations
+│   ├── index.html             # Main HTML file
+│   ├── main.ts                # Application entry point
+│   └── styles.css             # Global styles
+│
+├── angular.json                # Angular project configuration
+├── package.json                # Project dependencies & scripts
+├── package-lock.json           # Dependency lock file
+├── tsconfig.json               # TypeScript configuration
+├── tsconfig.app.json           # App-specific TS config
+├── tsconfig.spec.json          # Test TS config
+└── README.md                   # Project documentation
 
 
 
